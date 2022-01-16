@@ -9,6 +9,9 @@
     "start": "nodemon --watch server.js --watch server/",
     "postinstall": "webpack"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "author": "Codecademy",
   "license": "ISC",
   "dependencies": {
